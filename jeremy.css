@@ -1,0 +1,62 @@
+body {
+    background-color: purple;
+    color: yellow;
+    font-size: 20px;
+}
+
+fieldset {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+header {
+    text-align: center;
+    font-size: 32px;
+}
+
+img {
+    max-height: 300px;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: lightgreen;
+}
+
+a:active {
+    color: darkgray;
+}
+
+div {
+    text-align: center;
+}
+
+figure {
+    border: 2px solid yellow;
+}
+
+figcaption {
+    font-size: 32px;
+}
+
+li {
+    font-size: 32px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
